@@ -1,0 +1,27 @@
+output_sheet: Data
+start_row: 2
+
+columns:
+  - name: sku
+    required: true
+
+  - name: description
+    required: false
+
+  - name: product_name
+    required: true
+
+  - name: ean
+    required: false
+
+  - name: quantity
+    required: true
+
+  - name: unit_price
+    required: true
+
+  - name: currency
+    required: true
+
+  - name: delivery_date
+    required: false

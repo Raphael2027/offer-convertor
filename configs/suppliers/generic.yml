@@ -1,0 +1,14 @@
+supplier_name: GENERIC
+header_search_rows: 50
+
+mapping: {}
+
+synonyms:
+  sku: ["sku", "style", "style no", "style#", "artikel", "artikelnummer", "artnr", "item", "item no", "product id", "model", "modell"]
+  product_name: ["product_name", "product name", "description", "artikelname", "bezeichnung", "name", "product", "designation"]
+  description: ["description", "beschreibung", "details", "remark", "note"]
+  quantity: ["quantity", "qty", "total qty", "total quantity", "menge", "anzahl", "stk", "units", "pcs"]
+  unit_price: ["unit_price", "unit price", "price", "your price", "net price", "cfr", "cfr nl", "fob", "exw", "kosten", "cost"]
+  currency: ["currency", "währung", "curr"]
+  ean: ["ean", "barcode", "gtin", "upc"]
+  delivery_date: ["delivery date", "lieferdatum", "eta", "ship date"]

@@ -1,0 +1,12 @@
+supplier_name: TEST
+header_search_rows: 10
+
+mapping:
+  "Code": "sku"
+  "Name": "product_name"
+  "USRP USD": "unit_price"
+
+# optional / falls es im File keine Menge gibt
+# quantity wird später default gesetzt oder bleibt leer
+
+synonyms: {}
